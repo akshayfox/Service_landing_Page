@@ -33,7 +33,9 @@ export default function Navbar() {
           </div>
 
           <div className="hidden md:flex items-center space-x-4">
-            <Button variant="outline" className="border-gray-300 text-gray-700 hover:bg-gray-50 focus:ring-2 focus:ring-blue-500">Login</Button>
+            <Button variant="outline" asChild className="border-gray-300 text-gray-700 hover:bg-gray-50 focus:ring-2 focus:ring-blue-500">
+              <a href="https://service-mgmt.web.app/">Login</a>
+            </Button>
             <Button className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 focus:ring-2 focus:ring-blue-500">Get Started</Button>
           </div>
 
@@ -61,7 +63,9 @@ export default function Navbar() {
             <Link href="/about" className="block px-3 py-2 text-base font-medium text-slate-600 hover:text-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded">About</Link>
             <Link href="/#contact" className="block px-3 py-2 text-base font-medium text-slate-600 hover:text-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded">Contact</Link>
             <div className="pt-4 pb-3 border-t border-slate-200 flex flex-col space-y-2">
-              <Button variant="outline" className="mx-3 focus:ring-2 focus:ring-blue-500">Login</Button>
+              <Button variant="outline" asChild className="mx-3 focus:ring-2 focus:ring-blue-500">
+                <a href="https://service-mgmt.web.app/">Login</a>
+              </Button>
               <Button className="mx-3 bg-blue-600 hover:bg-blue-700 focus:ring-2 focus:ring-blue-500">Get Started</Button>
             </div>
           </div>
