@@ -33,12 +33,11 @@ export default function Navbar() {
           </div>
 
           <div className="hidden md:flex items-center space-x-4">
-            <Button variant="outline" asChild className="border-gray-300 text-gray-700 hover:bg-gray-50 focus:ring-2 focus:ring-blue-500">
-              <a href="https://service-mgmt.web.app/">Login</a>
-            </Button>
-            <Button className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 focus:ring-2 focus:ring-blue-500">Get Started</Button>
-          </div>
-
+  <Button variant="outline" asChild className="border-gray-300 text-gray-700 hover:bg-gray-50 focus:ring-2 focus:ring-blue-500">
+    <a href="https://service-mgmt.web.app/" target="_blank" rel="noopener noreferrer">Login</a>
+  </Button>
+  <Button className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 focus:ring-2 focus:ring-blue-500">Get Started</Button>
+</div>
           <div className="md:hidden">
             <Button
               variant="ghost"
