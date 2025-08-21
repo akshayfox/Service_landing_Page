@@ -7,6 +7,7 @@ import Reveal from "@/components/Reveal";
 
 export default function CTA() {
   return (
+    
     <section className="py-20 bg-gradient-to-r from-indigo-600 to-violet-700">
       <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <Reveal delay={50}>
