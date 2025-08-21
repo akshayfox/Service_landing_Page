@@ -12,7 +12,7 @@ export default function Hero() {
           <Reveal className="space-y-8" delay={50}>
             <div className="inline-flex items-center gap-2 rounded-full border border-blue-100 bg-blue-50 px-3 py-1 text-sm text-blue-700">
               <span className="inline-flex h-2 w-2 rounded-full bg-blue-600" />
-              New: Workflow automation just got smarter
+              New: Workflow automation just got smart
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
               Run Service Operations <span className="text-blue-600">Smarter, Faster, Together</span>
