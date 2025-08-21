@@ -5,6 +5,7 @@ import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { APP_NAME } from "@/lib/constants";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -16,8 +17,15 @@ export default function Navbar() {
           <div className="flex items-center">
             <div className="flex-shrink-0">
               <div className="flex items-center">
-                <Link href="/" className="text-2xl font-bold text-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded">
-                  {APP_NAME}
+                <Link href="/" className="flex items-center gap-3 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded">
+                  <Image
+                    src="/logo.svg"
+                    alt={`${APP_NAME} logo`}
+                    width={130}
+                    height={40}
+                    priority
+                    className="h-9 w-auto"
+                  />
                 </Link>
               </div>
             </div>
