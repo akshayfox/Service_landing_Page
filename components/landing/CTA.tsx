@@ -20,7 +20,7 @@ export default function CTA() {
         <Reveal delay={200}>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" variant="secondary" className="text-lg px-8 py-3 bg-white text-blue-600 hover:bg-slate-50 focus:ring-2 focus:ring-blue-500">
-              Get Started Free
+              Start Free Trial
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
             <Button size="lg" variant="outline" className="text-lg px-8 py-3 border-white text-white hover:bg-white hover:text-blue-600 focus:ring-2 focus:ring-blue-500">

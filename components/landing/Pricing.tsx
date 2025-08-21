@@ -20,8 +20,8 @@ export default function Pricing({ plans }: { plans: PricingPlan[] }) {
     <section id="pricing" className="py-20 bg-slate-50">
       <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
         <Reveal className="text-center mb-16" delay={50}>
-          <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">Choose Your Plan</h2>
-          <p className="text-xl text-slate-600">Flexible pricing that grows with your business</p>
+          <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">Simple plans for teams of every size.</h2>
+          <p className="text-xl text-slate-600">Free 14‑day trial. No credit card required.</p>
         </Reveal>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

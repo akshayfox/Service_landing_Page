@@ -15,10 +15,10 @@ export default function Hero() {
               New: Workflow automation just got smarter
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-              End‑to‑End <span className="text-blue-600">Service Management</span> Platform
+              Run Service Operations <span className="text-blue-600">Smarter, Faster, Together</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-600 max-w-lg">
-              Manage work orders, teams, SLAs, products, and billing in one place. Automate routine tasks and deliver faster, more reliable service.
+              Centralize tasks, automate workflows, track performance, and get paid—everything your service team needs in one place.
             </p>
 
             <ul className="space-y-3">
@@ -36,10 +36,10 @@ export default function Hero() {
 
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
               <Button className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-8 py-4 text-base font-medium rounded-lg focus:ring-2 focus:ring-blue-500">
-                Try for Free
+                Get Started
               </Button>
               <Button variant="outline" className="border-gray-300 text-gray-700 hover:bg-gray-50 px-8 py-4 text-base font-medium rounded-lg focus:ring-2 focus:ring-blue-500">
-                Demo
+                Book a Demo
               </Button>
             </div>
 
@@ -75,14 +75,9 @@ export default function Hero() {
             </div>
 
             <div className="pt-2">
-              <p className="text-xs uppercase tracking-wide text-gray-500 mb-3">Trusted by modern teams</p>
-              <div className="grid grid-cols-3 sm:grid-cols-5 gap-4 items-center opacity-80">
-                <div className="h-6 bg-gray-100 rounded" />
-                <div className="h-6 bg-gray-100 rounded" />
-                <div className="h-6 bg-gray-100 rounded" />
-                <div className="hidden sm:block h-6 bg-gray-100 rounded" />
-                <div className="hidden sm:block h-6 bg-gray-100 rounded" />
-              </div>
+              <p className="text-sm tracking-wide text-gray-600">
+                Trusted by growing service teams across repair, maintenance, and field services.
+              </p>
             </div>
           </Reveal>
 
