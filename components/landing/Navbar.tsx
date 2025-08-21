@@ -44,7 +44,9 @@ export default function Navbar() {
             <Button variant="outline" asChild className="border-gray-300 text-gray-700 hover:bg-gray-50 focus:ring-2 focus:ring-blue-500">
               <a href="https://service-mgmt.web.app/" target="_blank" rel="noopener noreferrer">Login</a>
             </Button>
-            <Button className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 focus:ring-2 focus:ring-blue-500">Get Started</Button>
+            <Button asChild className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 focus:ring-2 focus:ring-blue-500">
+              <a href="https://service-mgmt.web.app/" target="_blank" rel="noopener noreferrer">Get Started</a>
+            </Button>
           </div>
           <div className="md:hidden">
             <Button
@@ -73,7 +75,9 @@ export default function Navbar() {
               <Button variant="outline" asChild className="mx-3 focus:ring-2 focus:ring-blue-500">
                 <a href="https://service-mgmt.web.app/">Login</a>
               </Button>
-              <Button className="mx-3 bg-blue-600 hover:bg-blue-700 focus:ring-2 focus:ring-blue-500">Get Started</Button>
+              <Button asChild className="mx-3 bg-blue-600 hover:bg-blue-700 focus:ring-2 focus:ring-blue-500">
+                <a href="https://service-mgmt.web.app/" target="_blank" rel="noopener noreferrer">Get Started</a>
+              </Button>
             </div>
           </div>
         </div>
