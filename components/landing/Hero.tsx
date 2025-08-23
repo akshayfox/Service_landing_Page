@@ -35,10 +35,10 @@ export default function Hero() {
             </ul>
 
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-              <Button className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-8 py-4 text-base font-medium rounded-lg focus:ring-2 focus:ring-blue-500">
+              <Button onClick={() => window.location.href = "https://service-mgmt.web.app/"} className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-8 py-4 text-base font-medium rounded-lg focus:ring-2 focus:ring-blue-500">
                 Get Started
               </Button>
-              <Button variant="outline" className="border-gray-300 text-gray-700 hover:bg-gray-50 px-8 py-4 text-base font-medium rounded-lg focus:ring-2 focus:ring-blue-500">
+              <Button variant="outline" onClick={() => window.location.href = "https://service-mgmt.web.app/"} className="border-gray-300 text-gray-700 hover:bg-gray-50 px-8 py-4 text-base font-medium rounded-lg focus:ring-2 focus:ring-blue-500">
                 Book a Demo
               </Button>
             </div>

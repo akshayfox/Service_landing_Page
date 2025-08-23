@@ -34,8 +34,8 @@ export default function CTA() {
             <Button
               asChild
               size="lg"
-              variant="outline"
-              className="text-lg px-8 py-3 border-white text-white hover:bg-white hover:text-blue-600 focus:ring-2 focus:ring-blue-500"
+              variant="secondary"
+              className="text-lg px-8 py-3 bg-white text-blue-600 hover:bg-slate-50 focus:ring-2 focus:ring-blue-500"
             >
               <a href="/#contact">Book a Demo</a>
             </Button>
